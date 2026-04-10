@@ -1,0 +1,21 @@
+!pip install bigtree
+from bigtree import Node, print_tree
+
+raiz = Node("Raiz")
+
+nodo_alpha = Node("Alpha", parent=raiz)
+nodo_beta = Node("Beta", parent=raiz)
+nodo_gamma = Node("Gamma", parent=raiz)
+nodo_delta= Node("Delta", parent=raiz)
+
+Node("ALPHA-1", parent=nodo_alpha)
+Node("ALPHA-2", parent=nodo_alpha)
+Node("ALPHA-3", parent=nodo_alpha)
+
+Node("Beta-Gamma", parent=nodo_beta)
+Node("Beta-Gamma", parent=nodo_gamma)
+
+Node("Delta-1", parent=nodo_delta)
+Node("Delta-2", parent=nodo_delta)
+
+print_tree(raiz)
