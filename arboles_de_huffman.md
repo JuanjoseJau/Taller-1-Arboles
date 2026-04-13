@@ -151,5 +151,3 @@ Donde **n** es el número de símbolos únicos en el mensaje.
 Los Árboles de Huffman son una solución elegante y eficiente para el problema de compresión de datos. Al explotar la frecuencia de aparición de los símbolos, logran reducir el espacio necesario para representar información sin perder ningún dato. Su influencia es fundamental en la computación moderna, siendo el pilar de numerosos estándares de compresión que usamos a diario.
 
 ---
-
-*Consulta elaborada con fines académicos | Tema: Estructuras de Datos y Algoritmos*
